@@ -1,7 +1,11 @@
-import { ContainerNavegadorSec } from "./navSecStyle";
+import { ContainerNavegadorSec, TextNavSec } from "./navSecStyle";
 
 export default function NavegadorSecundarioNav() {
     return (
-        <ContainerNavegadorSec></ContainerNavegadorSec>
+        <ContainerNavegadorSec>
+            <TextNavSec>Link 1</TextNavSec>
+            <TextNavSec>Link 2</TextNavSec>
+            <TextNavSec>Link 3</TextNavSec>
+        </ContainerNavegadorSec>
     );
 };

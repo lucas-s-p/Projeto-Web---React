@@ -10,7 +10,7 @@ export const ContainerNav = styled.div`
 `;
 
 export const TextNav = styled.text`
-text-align: center;
+  text-align: center;
   font-size: 2rem;
   color: green;
 `
