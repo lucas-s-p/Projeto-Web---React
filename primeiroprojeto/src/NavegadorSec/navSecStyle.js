@@ -10,7 +10,20 @@ export const ContainerNavegadorSec = styled.div`
 `;
 
 export const TextNavSec = styled.text `
+    padding: 0px 60px 0px 60px;
     font-size: 1.4rem;
     color: white;
-    padding: 20px;
+`
+
+export const TextCurso = styled.text `
+    padding: 0px 155px 0px 30px;
+    font-size: 1.4rem;
+    font-family: monospace;
+    color: white;
+`
+export const TextUf = styled.text `
+    padding: 0px 30px 0px 155px;
+    font-size: 1.4rem;
+    font-family: monospace;
+    color: white;
 `

@@ -1,11 +1,14 @@
-import { ContainerNavegadorSec, TextNavSec } from "./navSecStyle";
+import { ContainerNavegadorSec, TextCurso, TextNavSec, TextUf } from "./navSecStyle";
 
 export default function NavegadorSecundarioNav() {
     return (
         <ContainerNavegadorSec>
-            <TextNavSec>Link 1</TextNavSec>
-            <TextNavSec>Link 2</TextNavSec>
-            <TextNavSec>Link 3</TextNavSec>
+            <TextCurso>Ciência da Computação</TextCurso>
+            <TextNavSec>Linkedin</TextNavSec>
+            <TextNavSec>Git Hub</TextNavSec>
+            <TextNavSec>Instagram</TextNavSec>
+            <TextNavSec>Discord</TextNavSec>
+            <TextUf>UFCG</TextUf>
         </ContainerNavegadorSec>
     );
 };
