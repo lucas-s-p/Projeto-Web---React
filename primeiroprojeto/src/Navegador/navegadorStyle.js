@@ -3,11 +3,11 @@ import backGroundImage from "../assets/imagem01.avif";
 
 export const ContainerNav = styled.div`
   width: 100vw;
-  height: 30vh;
+  height: 25vh;
   background-color: red;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-image: url(${backGroundImage});
 `;
 
@@ -23,4 +23,10 @@ export const DescricaoPrimaria = styled.text`
   font-size: 1.2rem;
   font-family: Arial;
   color: white;
+`
+
+export const ImageTopo = styled.img`
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
 `
