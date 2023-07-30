@@ -5,6 +5,9 @@ export const Container = styled.div`
     width: 100vw;
     height: 200vh;
     background-image: url(${backGroundImage});
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 

@@ -5,6 +5,7 @@ import NavegadorNav from './Navegador';
 import { SobreAprendizagem } from './SobreAprendizagem';
 import NavegadorSecundarioNav from './NavegadorSec';
 import EntendaSobreMim from './entendaMais';
+import Rodape from './rodape';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavegadorSecundarioNav></NavegadorSecundarioNav>
       <SobreAprendizagem></SobreAprendizagem>
       <EntendaSobreMim></EntendaSobreMim>
+      <Rodape></Rodape>
     </Container>
   );
 };

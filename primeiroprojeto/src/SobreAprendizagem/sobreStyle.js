@@ -29,7 +29,7 @@ export const Sobre2 = styled.header`
 export const Sobre3 = styled.header`
   grid-area: sobre3;
   display: flex;
-  width: 100%;
+  width: 96%;
   height: 100%;
   align-items: center;
   cursor: pointer;
